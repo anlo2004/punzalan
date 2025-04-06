@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Anlo's Informaion</title>
+   <style>
+     body {
+       font-style: Tahoma, sans-serif;
+       margin: 0;
+       color: white;
+       background-color: #ff7f50;
+     }
+     h1 {
+            background-color: coral;
+            color: #f0f0f0;
+            padding: 30px;
+            font-size: 100px;
+            text-align: center;
+        }
+        
+        h2{
+            color: #f0f0f0;
+            font-size: 100px;
+        }
+        h3{
+            color: #f0f0f0;
+            font-size: 100px;
+        }
+        ul
+  {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: #ff7f50;
+    overflow:hidden;
+  }
+  li
+  {
+   float:left; 
+  }
+  li a{
+    
+   color:white;
+    text-align:center;
+    font-size:20px;
+    padding:10px 20px;
+    display:block;
+  }
+  li a:hover{
+   background-color:#ff7f50; 
+    font-size:30px;
+    transition-duration: .5s;
+  }
+        
+        
+  .main{
+    display:flex;
+  }
+     footer {
+       background-color: coral;
+       color: #ccc;
+       text-align: center;
+       padding: 20px;
+     }
+     
+    
+   </style>
+ </head>
+ <body>
+   <header>
+     <h1>Welcome To My Personal Information</h1>
+    
+   </header>
+ 
+   
+     <ul>
+       <li><a >Home</a></li>
+       <li><a >About</a></li>
+       <li><a >Information</a></li>
+       <li><a >Contact</a></li>
+     </ul>
+  
+ 
+   
+     
+       <h2>About Me</h2>
+       <p>My Photo:</p>
+       <div class="main">
+         <img src="mine.jpg" class="image">
+       </div>
+       <p>My Name is Carlo Punzalan<br> 1st year college student taking Bachelor of Science in Information Technology</p>
+ 
+       <h2>More Photos:</h2>
+       <p>My Hobby</p>
+       <div class="main">
+         <img src="music.jpg" class="image">
+         <img src="og.jpg" class="image">
+         <img src="sleep.png"  class="image">
+       </div>
+       <br>
+       <label>Personal Information</label><br>
+       <p><b>Address: </b>Purok 2, Perigola Street, Valdefuente, Cabanatuan City, Nueva Ecija</p>
+       <p><b>Age: </b>21 years old</p>
+       <p><b>Sex: </b>Male</p>
+       <p><b>Height: </b>161 cm</p>
+       <p><b>Weight: </b>69 kg</p>
+       <p><b>Nationality: </b>Filipino</p>
+     </div>
+ 
+     <div class="main">
+       <h2>My School</h2>
+       <p>College for Research and Technology</p>
+       </div>
+       <p>The "College for Research & Technology (CRT)" refers to a specific institution, the College for Research & Technology of Cabanatuan, known for its focus on accessible and affordable technological education, with campuses in Cabanatuan, Gapan, Guimba, and San Jose. </p>
+       <br>
+       <h2>My Course</h2>
+       <p>Bachelor of Science in Information Technology</p>
+       <div class="main">
+         <img src="bsit.jpg"  class="image">
+       </div>
+       <p>A Bachelor of Science in Information Technology (BSIT) is a four-year degree program that focuses on the study of computer utilization and software to plan, install, customize, operate, manage, administer, and maintain information technology infrastructure, preparing students for IT careers. </p>
+     </div>
+ 
+   <div class="main">
+     
+       <h3>More Information</h3>
+       <p><b>Email:</b> anlo18204@gmail.com</p>
+       <p><b>Hobby:</b> Music & Gaming & Sleeping</p>
+       
+    
+   </div>
+ 
+   <div class="footer">&copy;By 2025 All Rights Reserved Created by Carlo</div>
+ </body>
+ </html>
